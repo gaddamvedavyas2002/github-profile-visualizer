@@ -1,0 +1,83 @@
+.analysis-page-container {
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.no-data-container,
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.no-data-image,
+.failure-image {
+  width: 200px;
+}
+
+.no-data-heading {
+  margin: 16px 0 8px;
+}
+
+.no-data-text {
+  color: #6b7280;
+  max-width: 420px;
+}
+
+.go-home-button,
+.try-again-button {
+  margin-top: 12px;
+  padding: 8px 20px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.failure-text {
+  color: #374151;
+}
+
+.analysis-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.analysis-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.analysis-user-login {
+  margin: 8px 0 0;
+}
+
+.analysis-heading {
+  margin: 4px 0 24px;
+  color: #6b7280;
+}
+
+.chart-block {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-heading {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 650px) {
+  .chart-block svg {
+    max-width: 100%;
+    height: auto;
+  }
+}
